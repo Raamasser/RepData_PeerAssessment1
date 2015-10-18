@@ -12,15 +12,6 @@ par(mfrow=c(1,1))
 theData <- read.csv("repdata_data_activity/activity.csv",sep = ",", na.strings = "NA",stringsAsFactors=FALSE)
 ```
 
-```
-## Warning in file(file, "rt"): cannot open file 'repdata_data_activity/
-## activity.csv': No such file or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
 ## What is mean total number of steps taken per day?
 
 ### Histogram of the total number of steps taken each day
